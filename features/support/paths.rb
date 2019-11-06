@@ -12,6 +12,8 @@ module NavigationHelpers
   #
   def path_to(page_name)
     case page_name
+    when /^the new categories page$/
+      '/admin/categories/new'  
 
     when /^the home\s?page$/
       '/'
